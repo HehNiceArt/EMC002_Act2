@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  padding: 50px 50px 0 50px;
+  z-index: 1000;
+  position: relative;
+}
+
+body {
+  background-color: #222222;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 200vh;
+  color: white;
 }
 
 .App-logo {
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
