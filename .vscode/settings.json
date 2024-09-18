@@ -1,5 +1,8 @@
 {
     "workbench.activityBar.iconClickBehavior": "toggle",
-    "workbench.iconTheme": "vs-seti",
-    "workbench.sideBar.location": "left"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "left",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": null,
+    "emmet.triggerExpansionOnTab": true
 }

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import '../App.css'
+import './Counter.css'
+
 export default function Counter() {
     const [count, setCount] = useState(0);
 
@@ -8,10 +10,12 @@ export default function Counter() {
     const reset = () => setCount(0);
     return (
         <div className="App">
-            <p>You clicked {count} times!</p>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
-            <button onClick={reset}>Reset</button>
+            <p style={{fontSize: '50px'}}>You clicked {count} times!</p>
+            <div className="Counter-BtnContainer">
+            <button className="Counter-Button bn" onClick={increment}>Increment</button>
+            <button className="Counter-Button bn" onClick={decrement}>Decrement</button>
+            <button className="Counter-Button bn" onClick={reset}>Reset</button>
+            </div>
         </div>
     )
 }
