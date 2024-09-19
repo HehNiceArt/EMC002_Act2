@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css'
 
 import HomePage from './pages/HomePages'
 import CounterPage from './pages/CounterPage'
@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
